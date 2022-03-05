@@ -4,7 +4,7 @@ pipeline {
         stage("deploy"){
             steps{
                 echo "In the deploy stage"
-                sh 'kubectl version'
+                bat "kubectl version"
             }
         }
     }
