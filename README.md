@@ -1,2 +1,2 @@
 # Deployment demo to Kubernet cluster repository
-[Deployment Note](/DeployNode)
+[Deployment Note](/DeployNote)
