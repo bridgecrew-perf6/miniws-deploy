@@ -17,5 +17,5 @@ spec:
     spec:
       containers:
       - name: trand-ws
-        image: trand/miniws-first-container
+        image: trand/miniws
         imagePullPolicy: Never
