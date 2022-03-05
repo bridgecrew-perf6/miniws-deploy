@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: trand-ws
+  labels:
+    app: miniws
+spec:
+  containers:
+  - name: trand-ws
+    image: trand/miniws-first-container
+    imagePullPolicy: Never
+  restartPolicy: Never
